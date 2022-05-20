@@ -1,0 +1,11 @@
+{
+    "Token":"xxxx",
+    "business_flag": "kandian_prc_tf_train",
+    "task_flag": "pinas_s2_integrated_20220519_144409",
+    "model_local_file_path": "bias_v24_max_random_v2_PN_7",
+    "GPUName": "V100",
+    "host_num": 1,
+    "host_gpu_num": 1,
+    "image_full_name": "mirrors.xxx.com/autopooling_train/paddle2.3-cuda10.2-cudnn7:v1",
+    "cuda_version": "10.2"
+}
