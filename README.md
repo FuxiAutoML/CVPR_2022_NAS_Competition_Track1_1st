@@ -3,17 +3,23 @@
 
 ## 训练：阶段一
 sh local_train_pinas1_wholenet.sh
+
 会保存多轮ckpt，此处建议使用首轮保存的ckpt，交给下一轮继承训练
+
 py文件入口：train_supernet_pinas_stage1.py
 
 ## 训练：阶段二
 sh local_train_pinas2_simple_wholenet_nof.sh
+
 会保存多轮ckpt，此处建议使用首轮保存的ckpt，交给测试（eval）任务
+
 py文件入口：train_supernet_pinas_stage2_simple.py
 
 ## 测试：阶段三
 sh local_eval.sh
+
 使用阶段二的ckpt（0.pdparams）文件，进行4.5万个子网结构acc预测
+
 py文件入口：train_supernet.py
 
 # 注意
