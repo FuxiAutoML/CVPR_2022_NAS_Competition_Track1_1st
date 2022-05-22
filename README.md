@@ -50,4 +50,4 @@ py文件入口：train_supernet.py
 代码中部分绝对路径需要修改为你运行时的具体文件路径，比如hapi_wrapper.py中的modelarch_file等。另外，.sh脚本中的文件路径配置，也需要更改为本地可用的路径，比如pretrained, image_dir等。
 
 ## checkpoint文件
-在checkpoint_files目录下保存有多个ckpt，解压后使用(可通过local_eval脚本配置ckpt_dir变量来加载)。
+在checkpoint_files目录下提供了ckpt(.pdparams)文件的地址，下载并解压后使用。可通过local_eval脚本配置ckpt_dir变量来加载并测试。
